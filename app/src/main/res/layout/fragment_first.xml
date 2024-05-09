@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/surname"
+        android:textSize="24sp"
+        android:textColor="@color/gray"
+        android:paddingHorizontal="10dp"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/name"
+        android:textSize="24sp"
+        android:textColor="@color/gray"
+        android:paddingHorizontal="10dp"/>
+    <EditText
+        android:id="@+id/et_middle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/middle_name"
+        android:textSize="24sp"
+        android:textColor="@color/gray"
+        android:paddingHorizontal="10dp"/>
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/btn_save"
+        android:textSize="24sp"
+        android:backgroundTint="@color/gray"
+        android:paddingHorizontal="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nurzhigit_Ishenov_hw_1_m_4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="middle_name">Отчество</string>
+    <string name="first_tab">First</string>
+    <string name="second_tab">Second</string>
+    <string name="third_tab">Third</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="welcome">Добро пожаловать</string>
+
+</resources>
