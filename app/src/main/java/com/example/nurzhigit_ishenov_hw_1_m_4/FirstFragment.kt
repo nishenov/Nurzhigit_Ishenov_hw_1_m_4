@@ -22,15 +22,13 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupListener()
-    }
 
-    private fun setupListener(){
+        val user = User(binding.etSurname.text.toString(), binding.etName.text.toString()
+            ,binding.etMiddleName.text.toString())
+
         binding.btnSave.setOnClickListener{
-            findNavController().navigate(FirstFragmentDirections.actionFirstFragmentToSecondFragment(
-                surname = binding.etSurname.text.toString()
-                ,name = binding.etName.text.toString()
-                , middleName = binding.etMiddleName.text.toString()))
+            findNavController().navigate(FirstFragmentDirections.actionFirstFragmentToSecondFragment(user))
         }
+
     }
 }

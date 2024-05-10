@@ -16,7 +16,7 @@ class SecondFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentSecondBinding.inflate(layoutInflater)
         return binding.root
@@ -27,8 +27,8 @@ class SecondFragment : Fragment() {
         getData()
     }
     private fun getData(){
-        binding.tvSurname.text = args.surname
-        binding.tvName.text = args.name
-        binding.tvMiddleName.text = args.middleName
+        binding.tvSurname.text = args.userInfo.surname
+        binding.tvName.text = args.userInfo.name
+        binding.tvMiddleName.text = args.userInfo.middleName
     }
 }
